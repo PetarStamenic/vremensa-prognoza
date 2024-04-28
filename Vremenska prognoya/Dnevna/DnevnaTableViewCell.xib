@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="DnevnaTableViewCell" customModule="Vremenska_prognoya" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20G-pa-U1t">
+                        <rect key="frame" x="0.0" y="0.0" width="158" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="E4H-95-Zxz"/>
+                            <constraint firstAttribute="height" constant="100" id="e1V-dZ-DUz"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="iuk-lC-Ku6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHK-5d-n4O">
+                        <rect key="frame" x="266" y="40" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71B-Oh-gxv">
+                        <rect key="frame" x="323" y="40" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoD-ce-V1C">
+                        <rect key="frame" x="313" y="40" width="5" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemGray6Color"/>
+                        <color key="highlightedColor" name="AccentColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dl9-VE-uzi">
+                        <rect key="frame" x="154" y="5" width="90" height="90"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="71B-Oh-gxv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0PM-Nw-ofS"/>
+                    <constraint firstItem="DHK-5d-n4O" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1hu-5w-66e"/>
+                    <constraint firstItem="20G-pa-U1t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8ap-G3-BUu"/>
+                    <constraint firstItem="BoD-ce-V1C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="9wu-Tb-0Bl"/>
+                    <constraint firstItem="71B-Oh-gxv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ely-87-nQg"/>
+                    <constraint firstItem="71B-Oh-gxv" firstAttribute="leading" secondItem="BoD-ce-V1C" secondAttribute="trailing" constant="5" id="Iz4-JC-L98"/>
+                    <constraint firstItem="dl9-VE-uzi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="154" id="L84-yu-CJz"/>
+                    <constraint firstItem="dl9-VE-uzi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LCo-Nc-eHt"/>
+                    <constraint firstItem="DHK-5d-n4O" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="R7f-u0-NZl"/>
+                    <constraint firstItem="20G-pa-U1t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ra3-6N-p1l"/>
+                    <constraint firstAttribute="trailing" secondItem="71B-Oh-gxv" secondAttribute="trailing" constant="10" id="S98-vQ-Agg"/>
+                    <constraint firstItem="dl9-VE-uzi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gch-d1-PZq"/>
+                    <constraint firstAttribute="bottom" secondItem="20G-pa-U1t" secondAttribute="bottom" id="nJm-I8-ROl"/>
+                    <constraint firstItem="BoD-ce-V1C" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qvf-Wr-Nji"/>
+                    <constraint firstItem="BoD-ce-V1C" firstAttribute="leading" secondItem="DHK-5d-n4O" secondAttribute="trailing" constant="5" id="wZp-0R-Ase"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <accessibility key="accessibilityConfiguration" identifier="DnevnaTableViewCell">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <connections>
+                <outlet property="dazLabel" destination="20G-pa-U1t" id="hDg-nh-Zvs"/>
+                <outlet property="ico" destination="dl9-VE-uzi" id="u7e-Mg-EtB"/>
+                <outlet property="maxLabel" destination="DHK-5d-n4O" id="bbv-pR-459"/>
+                <outlet property="minLabel" destination="71B-Oh-gxv" id="CVz-2d-eOf"/>
+            </connections>
+            <point key="canvasLocation" x="-42.753623188405797" y="46.205357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

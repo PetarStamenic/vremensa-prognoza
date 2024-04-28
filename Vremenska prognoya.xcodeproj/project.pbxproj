@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC2DC0F25D7E238007496E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC0E25D7E238007496E8 /* AppDelegate.swift */; };
+		1DC2DC1125D7E238007496E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC1025D7E238007496E8 /* SceneDelegate.swift */; };
+		1DC2DC1325D7E238007496E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC1225D7E238007496E8 /* ViewController.swift */; };
+		1DC2DC1625D7E238007496E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC2DC1425D7E238007496E8 /* Main.storyboard */; };
+		1DC2DC1825D7E243007496E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC2DC1725D7E243007496E8 /* Assets.xcassets */; };
+		1DC2DC1B25D7E243007496E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC2DC1925D7E243007496E8 /* LaunchScreen.storyboard */; };
+		1DC2DC2625D7E244007496E8 /* Vremenska_prognoyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC2525D7E244007496E8 /* Vremenska_prognoyaTests.swift */; };
+		1DC2DC3125D7E244007496E8 /* Vremenska_prognoyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC3025D7E244007496E8 /* Vremenska_prognoyaUITests.swift */; };
+		1DC2DC4A25D7E3B4007496E8 /* ConectionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2DC4925D7E3B4007496E8 /* ConectionControl.swift */; };
+		D243847225F1624A005B366A /* SatnaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D243847025F1624A005B366A /* SatnaCollectionViewCell.swift */; };
+		D243847325F1624A005B366A /* SatnaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D243847125F1624A005B366A /* SatnaCollectionViewCell.xib */; };
+		D243847D25F16EA8005B366A /* SatnaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D243847B25F16EA8005B366A /* SatnaTableViewCell.swift */; };
+		D243847E25F16EA8005B366A /* SatnaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D243847C25F16EA8005B366A /* SatnaTableViewCell.xib */; };
+		D24BCDB425F1271800F35161 /* DnevnaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BCDB225F1271800F35161 /* DnevnaTableViewCell.swift */; };
+		D24BCDB525F1271800F35161 /* DnevnaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24BCDB325F1271800F35161 /* DnevnaTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DC2DC2225D7E244007496E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC2DC0325D7E238007496E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC2DC0A25D7E238007496E8;
+			remoteInfo = "Vremenska prognoya";
+		};
+		1DC2DC2D25D7E244007496E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC2DC0325D7E238007496E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC2DC0A25D7E238007496E8;
+			remoteInfo = "Vremenska prognoya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC2DC0B25D7E238007496E8 /* Vremenska prognoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vremenska prognoya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC2DC0E25D7E238007496E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DC2DC1025D7E238007496E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DC2DC1225D7E238007496E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DC2DC1525D7E238007496E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DC2DC1725D7E243007496E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC2DC1A25D7E243007496E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DC2DC1C25D7E243007496E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC2DC2125D7E244007496E8 /* Vremenska prognoyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vremenska prognoyaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC2DC2525D7E244007496E8 /* Vremenska_prognoyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vremenska_prognoyaTests.swift; sourceTree = "<group>"; };
+		1DC2DC2725D7E244007496E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC2DC2C25D7E244007496E8 /* Vremenska prognoyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vremenska prognoyaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC2DC3025D7E244007496E8 /* Vremenska_prognoyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vremenska_prognoyaUITests.swift; sourceTree = "<group>"; };
+		1DC2DC3225D7E244007496E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC2DC4925D7E3B4007496E8 /* ConectionControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectionControl.swift; sourceTree = "<group>"; };
+		D243847025F1624A005B366A /* SatnaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatnaCollectionViewCell.swift; sourceTree = "<group>"; };
+		D243847125F1624A005B366A /* SatnaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SatnaCollectionViewCell.xib; sourceTree = "<group>"; };
+		D243847B25F16EA8005B366A /* SatnaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatnaTableViewCell.swift; sourceTree = "<group>"; };
+		D243847C25F16EA8005B366A /* SatnaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SatnaTableViewCell.xib; sourceTree = "<group>"; };
+		D24BCDB225F1271800F35161 /* DnevnaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnevnaTableViewCell.swift; sourceTree = "<group>"; };
+		D24BCDB325F1271800F35161 /* DnevnaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnevnaTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC2DC0825D7E238007496E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC1E25D7E244007496E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC2925D7E244007496E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC2DC0225D7E238007496E8 = {
+			isa = PBXGroup;
+			children = (
+				1DC2DC0D25D7E238007496E8 /* Vremenska prognoya */,
+				1DC2DC2425D7E244007496E8 /* Vremenska prognoyaTests */,
+				1DC2DC2F25D7E244007496E8 /* Vremenska prognoyaUITests */,
+				1DC2DC0C25D7E238007496E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC2DC0C25D7E238007496E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC2DC0B25D7E238007496E8 /* Vremenska prognoya.app */,
+				1DC2DC2125D7E244007496E8 /* Vremenska prognoyaTests.xctest */,
+				1DC2DC2C25D7E244007496E8 /* Vremenska prognoyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC2DC0D25D7E238007496E8 /* Vremenska prognoya */ = {
+			isa = PBXGroup;
+			children = (
+				D243847A25F16E87005B366A /* Satna */,
+				D243846F25F16217005B366A /* collectionViewCell */,
+				D24BCDB125F1270000F35161 /* Dnevna */,
+				1DC2DC0E25D7E238007496E8 /* AppDelegate.swift */,
+				1DC2DC1025D7E238007496E8 /* SceneDelegate.swift */,
+				1DC2DC1225D7E238007496E8 /* ViewController.swift */,
+				1DC2DC1425D7E238007496E8 /* Main.storyboard */,
+				1DC2DC1725D7E243007496E8 /* Assets.xcassets */,
+				1DC2DC1925D7E243007496E8 /* LaunchScreen.storyboard */,
+				1DC2DC1C25D7E243007496E8 /* Info.plist */,
+				1DC2DC4925D7E3B4007496E8 /* ConectionControl.swift */,
+			);
+			path = "Vremenska prognoya";
+			sourceTree = "<group>";
+		};
+		1DC2DC2425D7E244007496E8 /* Vremenska prognoyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC2DC2525D7E244007496E8 /* Vremenska_prognoyaTests.swift */,
+				1DC2DC2725D7E244007496E8 /* Info.plist */,
+			);
+			path = "Vremenska prognoyaTests";
+			sourceTree = "<group>";
+		};
+		1DC2DC2F25D7E244007496E8 /* Vremenska prognoyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC2DC3025D7E244007496E8 /* Vremenska_prognoyaUITests.swift */,
+				1DC2DC3225D7E244007496E8 /* Info.plist */,
+			);
+			path = "Vremenska prognoyaUITests";
+			sourceTree = "<group>";
+		};
+		D243846F25F16217005B366A /* collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D243847025F1624A005B366A /* SatnaCollectionViewCell.swift */,
+				D243847125F1624A005B366A /* SatnaCollectionViewCell.xib */,
+			);
+			path = collectionViewCell;
+			sourceTree = "<group>";
+		};
+		D243847A25F16E87005B366A /* Satna */ = {
+			isa = PBXGroup;
+			children = (
+				D243847B25F16EA8005B366A /* SatnaTableViewCell.swift */,
+				D243847C25F16EA8005B366A /* SatnaTableViewCell.xib */,
+			);
+			path = Satna;
+			sourceTree = "<group>";
+		};
+		D24BCDB125F1270000F35161 /* Dnevna */ = {
+			isa = PBXGroup;
+			children = (
+				D24BCDB225F1271800F35161 /* DnevnaTableViewCell.swift */,
+				D24BCDB325F1271800F35161 /* DnevnaTableViewCell.xib */,
+			);
+			path = Dnevna;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC2DC0A25D7E238007496E8 /* Vremenska prognoya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC2DC3525D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoya" */;
+			buildPhases = (
+				1DC2DC0725D7E238007496E8 /* Sources */,
+				1DC2DC0825D7E238007496E8 /* Frameworks */,
+				1DC2DC0925D7E238007496E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vremenska prognoya";
+			productName = "Vremenska prognoya";
+			productReference = 1DC2DC0B25D7E238007496E8 /* Vremenska prognoya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DC2DC2025D7E244007496E8 /* Vremenska prognoyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC2DC3825D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoyaTests" */;
+			buildPhases = (
+				1DC2DC1D25D7E244007496E8 /* Sources */,
+				1DC2DC1E25D7E244007496E8 /* Frameworks */,
+				1DC2DC1F25D7E244007496E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC2DC2325D7E244007496E8 /* PBXTargetDependency */,
+			);
+			name = "Vremenska prognoyaTests";
+			productName = "Vremenska prognoyaTests";
+			productReference = 1DC2DC2125D7E244007496E8 /* Vremenska prognoyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC2DC2B25D7E244007496E8 /* Vremenska prognoyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC2DC3B25D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoyaUITests" */;
+			buildPhases = (
+				1DC2DC2825D7E244007496E8 /* Sources */,
+				1DC2DC2925D7E244007496E8 /* Frameworks */,
+				1DC2DC2A25D7E244007496E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC2DC2E25D7E244007496E8 /* PBXTargetDependency */,
+			);
+			name = "Vremenska prognoyaUITests";
+			productName = "Vremenska prognoyaUITests";
+			productReference = 1DC2DC2C25D7E244007496E8 /* Vremenska prognoyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC2DC0325D7E238007496E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Dnevna,
+				);
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1DC2DC0A25D7E238007496E8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1DC2DC2025D7E244007496E8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1DC2DC0A25D7E238007496E8;
+					};
+					1DC2DC2B25D7E244007496E8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1DC2DC0A25D7E238007496E8;
+					};
+				};
+			};
+			buildConfigurationList = 1DC2DC0625D7E238007496E8 /* Build configuration list for PBXProject "Vremenska prognoya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC2DC0225D7E238007496E8;
+			productRefGroup = 1DC2DC0C25D7E238007496E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC2DC0A25D7E238007496E8 /* Vremenska prognoya */,
+				1DC2DC2025D7E244007496E8 /* Vremenska prognoyaTests */,
+				1DC2DC2B25D7E244007496E8 /* Vremenska prognoyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC2DC0925D7E238007496E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BCDB525F1271800F35161 /* DnevnaTableViewCell.xib in Resources */,
+				1DC2DC1B25D7E243007496E8 /* LaunchScreen.storyboard in Resources */,
+				D243847325F1624A005B366A /* SatnaCollectionViewCell.xib in Resources */,
+				D243847E25F16EA8005B366A /* SatnaTableViewCell.xib in Resources */,
+				1DC2DC1825D7E243007496E8 /* Assets.xcassets in Resources */,
+				1DC2DC1625D7E238007496E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC1F25D7E244007496E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC2A25D7E244007496E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC2DC0725D7E238007496E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC2DC4A25D7E3B4007496E8 /* ConectionControl.swift in Sources */,
+				1DC2DC1325D7E238007496E8 /* ViewController.swift in Sources */,
+				1DC2DC0F25D7E238007496E8 /* AppDelegate.swift in Sources */,
+				D24BCDB425F1271800F35161 /* DnevnaTableViewCell.swift in Sources */,
+				1DC2DC1125D7E238007496E8 /* SceneDelegate.swift in Sources */,
+				D243847D25F16EA8005B366A /* SatnaTableViewCell.swift in Sources */,
+				D243847225F1624A005B366A /* SatnaCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC1D25D7E244007496E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC2DC2625D7E244007496E8 /* Vremenska_prognoyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC2DC2825D7E244007496E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC2DC3125D7E244007496E8 /* Vremenska_prognoyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC2DC2325D7E244007496E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC2DC0A25D7E238007496E8 /* Vremenska prognoya */;
+			targetProxy = 1DC2DC2225D7E244007496E8 /* PBXContainerItemProxy */;
+		};
+		1DC2DC2E25D7E244007496E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC2DC0A25D7E238007496E8 /* Vremenska prognoya */;
+			targetProxy = 1DC2DC2D25D7E244007496E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DC2DC1425D7E238007496E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC2DC1525D7E238007496E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DC2DC1925D7E243007496E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC2DC1A25D7E243007496E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DC2DC3325D7E244007496E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC2DC3425D7E244007496E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DC2DC3625D7E244007496E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DC2DC3725D7E244007496E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DC2DC3925D7E244007496E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoyaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vremenska prognoya.app/Vremenska prognoya";
+			};
+			name = Debug;
+		};
+		1DC2DC3A25D7E244007496E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoyaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vremenska prognoya.app/Vremenska prognoya";
+			};
+			name = Release;
+		};
+		1DC2DC3C25D7E244007496E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vremenska prognoya";
+			};
+			name = Debug;
+		};
+		1DC2DC3D25D7E244007496E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vremenska prognoyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-Teodora--Petar-.Vremenska-prognoyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vremenska prognoya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC2DC0625D7E238007496E8 /* Build configuration list for PBXProject "Vremenska prognoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC2DC3325D7E244007496E8 /* Debug */,
+				1DC2DC3425D7E244007496E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC2DC3525D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC2DC3625D7E244007496E8 /* Debug */,
+				1DC2DC3725D7E244007496E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC2DC3825D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC2DC3925D7E244007496E8 /* Debug */,
+				1DC2DC3A25D7E244007496E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC2DC3B25D7E244007496E8 /* Build configuration list for PBXNativeTarget "Vremenska prognoyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC2DC3C25D7E244007496E8 /* Debug */,
+				1DC2DC3D25D7E244007496E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DC2DC0325D7E238007496E8 /* Project object */;
+}
